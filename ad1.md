@@ -8,7 +8,7 @@ La infografía que nos presenta [el periódico El Espectador](https://www.elespe
 
 Mientras el usuario hace *'scroll'* se van revelando cifras que resultan impactantes, particularmente aquellas que tienen que ver con **vulneraciones y otros temas que afectan a los infantes en Colombia**. Sobre el diseño, me gusta la paleta de colores que utilizó El Espectador para la presentación de los datos. En términos generales, el trabajo se puede leer de manera simple.
 
-[La infografía, aunque no es muy larga, es puntual](https://www.elespectador.com/colombia/mas-regiones/infografia-asi-vive-la-ninez-en-colombia-article/#) y el hecho de que sea interactiva hace que sea mucho más agradable para el lector. Aunque los datos son complejos de tratar, por el tema en sí, creo que **genera impacto y da un mensaje de reflexión a la audiencia**, aunque no haya opinión, solo datos.
+[La infografía, aunque no es muy larga, es puntual](https://infogram.com/asi-vive-la-ninez-en-colombia-1h8n6m3l5lekj4x) y el hecho de que sea interactiva hace que sea mucho más agradable para el lector. Aunque los datos son complejos de tratar, por el tema en sí, creo que **genera impacto y da un mensaje de reflexión a la audiencia**, aunque no haya opinión, solo datos.
 
 Además, considero que los datos presentados generan confianza por las fuentes que utilizan: [DANE](https://www.dane.gov.co/), [Ministerio de Educación](https://www.mineducacion.gov.co/portal/), [Unicef](https://www.unicef.org/es), entre otras entidades oficiales. La narrativa también me parece muy inmersiva, pues los datos no se presentan en tercera persona, más bien una niña, Inocencia, nos cuenta la “realidad” que vive ella y los miembros de su familia. 
 
