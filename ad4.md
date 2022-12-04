@@ -4,8 +4,6 @@ Para realizar la Actividad Dirigida 4 utilizaremos "Pandas", la librería de Pyt
 
 La URL: https://api.covid19api.com/countries
 
-[El link para ver la actividad en Jupyter está acá](http://localhost:8888/notebooks/cuadernos-master/ad4.ipynb#)
-
 ## Instalación de librerías:
 
 Para instalar la librería instalaremos la función "!pip". La exclamación es necesaria porque no estamos ejecutando Python, sino bash.
