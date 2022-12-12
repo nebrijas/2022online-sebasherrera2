@@ -1,10 +1,11 @@
 # “Así vive la niñez en Colombia”
 ## Autor: Sebastián Herrera Rosas.
-[Link de la publicación en el Espectador](https://www.elespectador.com/colombia/mas-regiones/infografia-asi-vive-la-ninez-en-colombia-article/#)
 
-La infografía que nos presenta [el periódico El Espectador](https://www.elespectador.com/)  titulada “**Así vive la niñez en Colombia**” refleja a través de cifras, de manera muy efectiva, la situación de los niños, niñas y adolescentes en Colombia. Resulta llamativo lo interactiva que es la pieza y cómo por medio de dibujos y figuras animados se da a conocer un tema delicado.
+La infografía que nos presenta [el periódico El Espectador](https://www.elespectador.com/colombia/mas-regiones/infografia-asi-vive-la-ninez-en-colombia-article/#)  titulada “**Así vive la niñez en Colombia**” refleja a través de cifras, de manera muy efectiva, la situación de los niños, niñas y adolescentes en Colombia. Resulta llamativo lo interactiva que es la pieza y cómo por medio de dibujos y figuras animados se da a conocer un tema delicado.
 
-![Imagen de los niños](https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/5HKIFGGMKNGRZH5VUNUC2C3I7Y.jpg)
+![Imagen de los niños](https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/5HKIFGGMKNGRZH5VUNUC2C3I7Y.jpg) 
+En Colombia, 51 % de la población infantil está compuesta por niñas y 49 %, por niños.
+Foto: Periódico El Espectador
 
 Mientras el usuario hace *'scroll'* se van revelando cifras que resultan impactantes, particularmente aquellas que tienen que ver con **vulneraciones y otros temas que afectan a los infantes en Colombia**. Sobre el diseño, me gusta la paleta de colores que utilizó El Espectador para la presentación de los datos. En términos generales, el trabajo se puede leer de manera simple.
 
