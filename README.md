@@ -2,8 +2,8 @@
 
 Actividades dirigidas y trabajo final del módulo
 
-- [AD1](ad1.md)
-- [AD2](ad2.md)
-- [AD3](ad3.md)
-- [AD4](ad4.md)
-- [Trabajo final](trabajo-final.md)
+- [ad1](ad1.md)
+- [ad2](ad2.md)
+- [ad3](ad3.md)
+- [ad4](ad4.md)
+- [Metodología](trabajo-final.md)
