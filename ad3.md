@@ -2,7 +2,14 @@
 
 A continuación, haremos un ejercicio de programación literaria utilizando un código de programación con Python que ya existe. A través de esta actividad nos adentraremos al mundo del *web scraping*.
 
-Instalación de librerías
+## ¿Qué es *Web Scraping*?
+
+El Web Scraping permite **analizar o manipular los datos extraidos más significativos de una o varias páginas web**. Lo anterior con el objetivo de crear una base de datos, generar alertas, analizar los enlaces de un sitio web, hacer una migración de un sitio web a otro, entre otros.
+
+Algunas páginas entre más datos relevantes tengan, más rigurosos son al momento de dejar visible la información para evitar el web scraping, debido a que esta actividad puede considerarse "ilegal" ya que es información que se usa para el beneficio de quien la extrae.
+
+## Instalación de librerías
+
 Para realizar con éxito el web scraping lo primero que tenemos que hacer es instalar la librería con la función "!pip".
 
 
@@ -26,25 +33,69 @@ Para realizar con éxito el web scraping lo primero que tenemos que hacer es ins
     Requirement already satisfied: soupsieve>1.2 in c:\users\windows\anaconda3\lib\site-packages (from beautifulsoup4->bs4) (2.3.1)
     
 
-## Librerías internas
+## Librerías
 
-Ahora, instalaremos las librerías internas. Este procedimiento se puede hacer con todas al tiempo. De la siguiente manera:
+Ahora, importaremos las librerías de la siguiente manera:
+
+Importamos de la librería la función requests para hacer peticiones de datos:
 
 
 ```python
 import requests
+```
+
+Importamos time para el tiempo horario y hacer peticiones en tiempos determinados:
+
+
+```python
 import time
+```
+
+Importamos la función csv para leer y escribir datos tabulares:
+
+
+```python
 import csv
+```
+
+Importamos la función re, es decir, patrones de coincidencia de texto descritos con una sintaxis formal:
+
+
+```python
 import re
+```
+
+Importamos la función BeautifulSoup para extraer datos de archivos HTML y XML:
+
+
+```python
 from bs4 import BeautifulSoup
+```
+
+Importamos la función os, la cual provee una manera versátil de usar funcionalidades dependientes del sistema operativo:
+
+
+```python
 import os
+```
+
+Importamos la librería Pandas con el abreviado estándar para hacer referencia a pandas as:
+
+
+```python
 import pandas as pd
+```
+
+Importamos desde termcolor la función colored que permite imprimir texto en color:
+
+
+```python
 from termcolor import colored
 ```
 
 ## Crear variable
 
-Crearemos una variable para tener control de nuestros resultados. Las variables se asignan con el símbolo "=". En este caso se denominara "resultados".
+Crearemos una variable para tener control de nuestros resultados. Las variables se asignan con el símbolo "=". En este caso se denominará "resultados". Cabe mencionar que los corchetes ([]), que van despúes de "=", se usan para la definición de listas, para el acceso de lectura a los elementos de listas, y para el acceso de escritura a listas y diccionarios. También para la definición de funciones e invocación.
 
 
 ```python
@@ -53,7 +104,7 @@ resultados = []
 
 ## Acceso a los datos
 
-A continuación, haremos una petición para obtener los datos y de esa manera avanzar con el *scraping*. En este caso se descargará únicamente la información de El País. 
+A continuación, haremos una petición para obtener los datos y de esa manera avanzar con el *scraping*. En este caso se descargará únicamente la información de El País. Para ello utilizaremos la función requests.get.
 
 
 ```python
@@ -62,7 +113,7 @@ req = requests.get("https://resultados.elpais.com")
 
 ## Condicional
 
-Ahora, le pondremos un condicional con el que nos aseguraremos que los resultados que pedimos sean los que queremos. En caso de que el valor de regreso no sea 200 nos arrojará un error.
+Ahora, le pondremos un condicional con el que nos aseguraremos que los resultados que pedimos sean los que queremos. En este caso le estamos pidiendo que el valor de regreso que no sea 200 nos arroje un error.
 
 
 ```python
@@ -72,7 +123,7 @@ if (req.status_code != 200):
 
 ## Agregamos librería
 
-La librería BeautifulSoup nos permitirá extraer la información solicitada en HTML. 
+La librería Beautiful Soup de Python sirve para analizar documentos HTML. Esta biblioteca crea un árbol con todos los elementos del documento y puede ser utilizado para extraer información. Además utilizaremos una variable denominada "soup".
 
 
 ```python
@@ -86,7 +137,7 @@ Agregaremos una nueva variable para que traiga únicamente la información que l
 tags = soup.findAll("h2")
 ```
 
-De la siguiente manera le pediremos que nos imprima los textos que necesitamos. Además, agregaremos la función "resultados.append(h2.text)" con el cual se añaden todos los textos dentro de las etiquetas a la lista que hemos creado.
+De la siguiente manera le pediremos que nos imprima los textos que necesitamos. Además, agregaremos "resultados.append(h2.text)" con el cual se añaden todos los textos dentro de las etiquetas a la lista que hemos creado.
 
 
 ```python
@@ -312,9 +363,9 @@ for h2 in tags:
     El defensor del lector contesta
     
 
-## Hora de la limpieza
+## Limpieza de la pantalla
 
-Usaremos la función "os.system(clear)" para que se haga una limpieza después del *scraping*. Esta paso es necesario para que el trabajo de impresión se haga de manera adecuada.
+Usaremos la función "os.system(clear)" para que se haga una limpieza después del *scraping*. Este paso es necesario para que el trabajo de impresión se haga de manera adecuada.
 
 
 ```python
@@ -328,7 +379,7 @@ os.system("clear")
 
 
 
-Posteriormente, jugaremos un poco con el estilo. Todos los titulares que tengan la palabra “Feminismo” tendrán un color verde y **negrita**.
+Posteriormente, jugaremos un poco con el estilo. Todos los titulares que tengan la palabra “Feminismo” tendrán un color verde y **negrita**. Utilizaremos la función **join**, la cual convierte una lista en una cadena formada por los elementos de la lista separados por comas.
 
 
 ```python
@@ -443,3 +494,11 @@ print("\n".join(str_match))
     Bill Hansson, experto en olfato: “No compres feromonas para intentar conseguir sexo, no funciona. Mejor trabaja en tu personalidad”
     Belén Barenys, protagonista de ‘Autodefensa’: “Ninguna de mis amigas tiene una relación normal con el sexo o con los hombres”
     El sexo (todavía) importa (demasiado)
+    
+
+### Conclusiones: 
+Esta actividad nos ha permitido extraer información de El País de manera rápida y sencilla. Hemos utilizado y combinado los lenguajes Python y Markdown que permiten utilizar la interfaz web de código abierto Jupyter.
+
+Esta técnica es muy útil para recopilar datos de contacto o información especial con gran rapidez. Funciona muy bien si queremos desarrollar un proyecto en poco tiempo y estar por encima de nuestra competencia. 
+
+Finalmente, cabe mencionar que el scraping es muy importantes para mantener la historia de Internet. Las iniciativas de archivado web se basan mayoritariamente en esta técnica.
