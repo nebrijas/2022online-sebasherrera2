@@ -6,4 +6,4 @@ Actividades dirigidas y trabajo final del módulo
 - [ad2](ad2.md)
 - [ad3](ad3.md)
 - [ad4](ad4.md)
-- [Metodología](trabajo-final.md)
+- [Metodología](Metodología.md)
