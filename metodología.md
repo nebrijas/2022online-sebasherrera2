@@ -1,5 +1,4 @@
 # Trabajo final
-
 ## Metodología 
 Este trabajo tiene como propósito explicar de qué manera se realizaron las actividades de la asignatura Periodismo de Datos II, las cuales relacionan lenguajes Markdown y Python. Quedará en evidencia el avance que los estudiantes tuvimos con el desarrollo de los ejercicios durante el transcurso de la clase.
 
